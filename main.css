@@ -1,0 +1,246 @@
+/* MEDIA */
+
+@media screen and (max-width: 600px) {
+    .column0, .column1, .column2 {
+        width: 100%;
+    }
+}
+ 
+/* HEADINGS */
+
+h1, h2, h3, h4, h5, footer{
+    color: whitesmoke;
+    margin-left: 5%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'raleway', sans-serif;
+}
+
+/* MAIN */
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'raleway', sans-serif;
+    font-style: normal;
+    line-height: 130%;
+}
+
+/* NAV BAR */
+nav {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+main li {
+    display: inline-block;
+    padding: .5em;
+    letter-spacing: .2em;
+}
+
+/* MAIN TABLE */
+
+table {
+   width: 100%;
+}
+
+td,th {
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+   
+}
+
+/* GENERAL BLOCKING AND CLEARING */
+
+* {
+    box-sizing: border-box;
+}
+
+.column0 li {
+    color: white;
+}
+
+.row:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* INDEX */
+
+#mainHero {
+    width: 80%;
+    padding-left: 5%;
+    max-width: 35em;
+    min-width: 25em;
+    float: left;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#me {
+    padding-top: 2em;
+    float: left;
+}
+
+/* BLOCKING RESUME */
+
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 1em;
+}
+
+.column2 {
+    float: left;
+    width: 80%;
+    padding: 1em;
+}
+
+
+/* RESUME LIST AND NAV */
+
+li {
+    display: inline;
+    float: left;
+    font-size: 1em;
+    color: white;
+   }
+
+/* LINKS */
+
+a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.topnav {
+    margin-right: 5%;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: small;
+}
+
+topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: navy;
+    color: white;
+}
+
+/* IMAGES */
+
+
+
+/* FORMS */
+
+label, legend {
+    font-size: large;
+    color: white;
+}
+
+fieldset {
+    max-width: 30em;
+    align-content: center;
+    margin-left: 5em;
+}
+
+button {
+    color: white;
+    background-color: navy;
+}
+
+
+/*  TABLE */
+
+table {
+    color: white;
+}
+
+caption {
+    color: navy;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+/* GALLERY */
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 10em;
+  height: auto;
+}
+
+div.gallery:hover {
+  border: 1px solid navy;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.description {
+  padding: 15px;
+  text-align: center;
+}
+
+/* javascript event */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: inherit;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: navy;
+}
+
+.container:hover .overlay {
+  opacity: .8;
+  width: inherit;
+}
+
+.text {
+  color: white;
+  font-size: 1.7em;
+  top: 40%;
+  left: 20%;
+  text-align: center;
+  position: sticky;
+}
