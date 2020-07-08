@@ -9,7 +9,7 @@
 /* HEADINGS */
 
 h1, h2, h3, h4, h5, footer{
-    color: whitesmoke;
+    color: black;
     margin-left: 5%;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, footer{
 /* MAIN */
 
 body {
-    color: white;
+    color: black;
     background-color: grey;
     font-family: 'raleway', sans-serif;
     font-style: normal;
@@ -44,22 +44,6 @@ main li {
     letter-spacing: .2em;
 }
 
-/* MAIN TABLE */
-
-table {
-   width: 100%;
-}
-
-td,th {
-    border: none;
-    text-align: center;
-    padding: 10px;
-}
-
-th {
-   
-}
-
 /* GENERAL BLOCKING AND CLEARING */
 
 * {
@@ -67,7 +51,7 @@ th {
 }
 
 .column0 li {
-    color: white;
+    color: black;
 }
 
 .row:after {
@@ -77,21 +61,25 @@ th {
 }
 
 /* INDEX */
+.group {
+    position: relative;
+}
 
-#mainHero {
-    width: 80%;
-    padding-left: 5%;
-    max-width: 35em;
-    min-width: 25em;
-    float: left;
-    padding-top: 5em;
+.centeredText {
+    background-color: lightsteelblue;
+    text-align: center;
+    font-size: 25px;  
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.mainImage {
+    width: 100%;
     padding-bottom: 5em;
-}
-
-#me {
-    padding-top: 2em;
     float: left;
 }
+
+
 
 /* RESUME LIST AND NAV */
 
@@ -99,7 +87,7 @@ li {
     display: inline;
     float: left;
     font-size: 1em;
-    color: white;
+    
    }
 
 /* LINKS */
@@ -116,14 +104,14 @@ a {
 
 .topnav a {
     float: right;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     font-size: small;
 }
 
 topnav a:hover {
-    background-color: white;
+    background-color: black;
     color: black;
 }
 
@@ -133,65 +121,3 @@ topnav a:hover {
 }
 
 /* IMAGES */
-
-
-/* GALLERY */
-
-div.gallery {
-  margin: 5px;
-  float: left;
-  width: 10em;
-  height: auto;
-}
-
-div.gallery:hover {
-  border: 1px solid navy;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.description {
-  padding: 15px;
-  text-align: center;
-}
-
-/* javascript event */
-.container {
-  position: relative;
-  width: 50%;
-}
-
-.image {
-  display: inherit;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  background-color: navy;
-}
-
-.container:hover .overlay {
-  opacity: .8;
-  width: inherit;
-}
-
-.text {
-  color: white;
-  font-size: 1.7em;
-  top: 40%;
-  left: 20%;
-  text-align: center;
-  position: sticky;
-}
